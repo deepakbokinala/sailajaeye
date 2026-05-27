@@ -1,0 +1,14 @@
+/* Hide Google sign-in button (second child in auth buttons row) */
+#outstatic .flex.flex-col.gap-2.w-full > button {
+  display: none !important;
+}
+
+/* Hide "or" divider */
+#outstatic .my-2.text-center:has(> p) {
+  display: none !important;
+}
+
+/* Hide magic link email form */
+#outstatic form.max-w-sm {
+  display: none !important;
+}

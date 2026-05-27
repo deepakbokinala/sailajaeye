@@ -1,26 +1,114 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* -------------------------------------------------------------------------- */
+/*  Design tokens (Tailwind v4 — CSS-first config)                             */
+/*  Every primitive in components/ui reads from these tokens. Update here to   */
+/*  rebrand the entire site.                                                   */
+/* -------------------------------------------------------------------------- */
+@theme {
+  /* Brand — amber-gold scale (derived from logo's golden circle) */
+  --color-brand-50: #fdf8eb;
+  --color-brand-100: #f9edcc;
+  --color-brand-200: #f0d895;
+  --color-brand-300: #e4be58;
+  --color-brand-400: #d5a52e;
+  --color-brand-500: #bb8d20;
+  --color-brand-600: #997318;
+  --color-brand: #8B6914;
+  --color-brand-dark: #6b510f;
+  --color-brand-darker: #4d3a0b;
+
+  /* Surfaces — clean with subtle warmth */
+  --color-background: #f8f7f3;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f2f1ec;
+
+  /* Text — cool neutrals for clinical clarity */
+  --color-foreground: #1a1814;
+  --color-muted-foreground: #64748b;
+  --color-subtle-foreground: #94a3b8;
+
+  /* Borders */
+  --color-border: rgba(26, 24, 16, 0.08);
+  --color-border-strong: rgba(26, 24, 16, 0.14);
+
+  /* Footer — deep charcoal from logo outline */
+  --color-footer: #2a2720;
+  --color-footer-foreground: #f8f7f0;
+
+  /* Radii */
+  --radius-pill: 9999px;
+  --radius-card: 24px;
+  --radius-hero: 32px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* Shadows */
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.06);
+  --shadow-soft-lg: 0 18px 50px rgba(0, 0, 0, 0.08);
+  --shadow-ring: 0 0 0 1px rgba(26, 24, 16, 0.05);
+  --shadow-brand: 0 12px 30px rgba(139, 105, 20, 0.20);
+
+  /* Container */
+  --container-7xl: 1280px;
+  --container-prose: 65ch;
+
+  /* Typography */
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* Animations */
+  --animate-marquee: marquee 25s linear infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes popIn {
+  0%   { opacity: 0; transform: scale(0.9) translateY(20px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes heroZoom {
+  0%   { transform: scale(1); }
+  100% { transform: scale(1.06); }
+}
+
+/* -------------------------------------------------------------------------- */
+/*  Base                                                                       */
+/* -------------------------------------------------------------------------- */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-brand);
+    color: #ffffff;
+  }
 }

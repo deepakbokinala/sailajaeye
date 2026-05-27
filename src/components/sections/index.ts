@@ -1,0 +1,13 @@
+export { Hero } from "./hero";
+export { QuickActions } from "./quick-actions";
+export { LeaderQuote } from "./leader-quote";
+export { Intro } from "./intro";
+export { CareStats } from "./care-stats";
+export { Specialties } from "./specialties";
+export { Doctors } from "./doctors";
+export type { DoctorItem } from "./doctors";
+export { Testimonials } from "./testimonials";
+export type { TestimonialItem } from "./testimonials";
+export { NewsEvents } from "./news-events";
+export { Blogs } from "./blogs";
+export { BrandSlider } from "./brand-slider";

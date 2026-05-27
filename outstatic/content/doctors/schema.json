@@ -1,0 +1,11 @@
+{
+  "title": "doctors",
+  "type": "object",
+  "properties": {
+    "specialty": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Specialty"
+    }
+  }
+}

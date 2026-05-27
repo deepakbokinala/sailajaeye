@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Surgeries",
+    "slug": "surgeries",
+    "path": "outstatic/content/surgeries",
+    "children": []
+  },
+  {
+    "title": "Specialities",
+    "slug": "specialities",
+    "path": "outstatic/content/specialities",
+    "children": []
+  },
+  {
+    "title": "Testimonials",
+    "slug": "testimonials",
+    "path": "outstatic/content/testimonials",
+    "children": []
+  },
+  {
+    "title": "Blogs",
+    "slug": "blogs",
+    "path": "outstatic/content/blogs",
+    "children": []
+  },
+  {
+    "title": "News",
+    "slug": "news",
+    "path": "outstatic/content/news",
+    "children": []
+  },
+  {
+    "title": "Doctors",
+    "slug": "doctors",
+    "path": "outstatic/content/doctors",
+    "children": []
+  }
+]

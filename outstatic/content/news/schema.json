@@ -1,0 +1,16 @@
+{
+  "title": "news",
+  "type": "object",
+  "properties": {
+    "featured": {
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Featured"
+    },
+    "eventDate": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Event Date"
+    }
+  }
+}

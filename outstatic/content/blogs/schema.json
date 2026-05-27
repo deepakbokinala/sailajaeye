@@ -1,0 +1,11 @@
+{
+  "title": "blogs",
+  "type": "object",
+  "properties": {
+    "featured": {
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Featured"
+    }
+  }
+}

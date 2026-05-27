@@ -1,0 +1,21 @@
+{
+  "title": "testimonials",
+  "type": "object",
+  "properties": {
+    "patient": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Patient Name"
+    },
+    "procedure": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Procedure"
+    },
+    "reviewDate": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Review Date"
+    }
+  }
+}

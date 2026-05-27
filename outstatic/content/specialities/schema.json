@@ -1,0 +1,76 @@
+{
+  "title": "specialities",
+  "type": "object",
+  "properties": {
+    "subtitle": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Subtitle"
+    },
+    "pageType": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Page Type"
+    },
+    "services": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Services JSON"
+    },
+    "servicesHeading": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Services Heading"
+    },
+    "servicesDescription": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Services Description"
+    },
+    "whyChooseUs": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Why Choose Us JSON"
+    },
+    "whyChooseUsHeading": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Why Choose Us Heading"
+    },
+    "doctors": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Doctors JSON"
+    },
+    "testimonials": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Testimonials JSON"
+    },
+    "ctaText": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "CTA Text"
+    },
+    "ctaButtonLabel": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "CTA Button Label"
+    },
+    "ctaButtonUrl": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "CTA Button URL"
+    },
+    "seoTitle": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "SEO Title"
+    },
+    "seoDescription": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "SEO Description"
+    }
+  }
+}
