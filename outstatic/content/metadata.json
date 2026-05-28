@@ -1,6 +1,6 @@
 {
-  "commit": "a84549435a7a78e7381ac66eaacec082fc72a8ee",
-  "generated": "2026-05-28T05:43:55.262Z",
+  "commit": "7437ad3b00e3b7a49c47dd9b037d6d9d888872b3",
+  "generated": "2026-05-28T05:44:22.399Z",
   "metadata": [
     {
       "__outstatic": {
@@ -528,8 +528,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a84549435a7a78e7381ac66eaacec082fc72a8ee",
-        "hash": "3556271346",
+        "commit": "7437ad3b00e3b7a49c47dd9b037d6d9d888872b3",
+        "hash": "2161940203",
         "path": "outstatic/content/specialities/contact-lenses.md"
       },
       "author": {
@@ -554,7 +554,7 @@
       "status": "published",
       "subtitle": "Contact Lenses — Specialised Eye Care Services",
       "testimonials": "[]",
-      "title": "Contact",
+      "title": "Contact Lenses",
       "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
       "whyChooseUsHeading": "Why Choose Dr. Sailaja's for Contact Lenses?"
     }

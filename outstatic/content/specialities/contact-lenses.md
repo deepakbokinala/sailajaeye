@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact Lenses
 status: published
 description: Contact Lenses — Specialised Eye Care Services
 publishedAt: 2026-05-27T20:15:01.647Z
