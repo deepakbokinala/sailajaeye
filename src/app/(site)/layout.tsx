@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { WelcomePopup } from "@/components/layout/welcome-popup";
-import "./globals.css";
+import "../globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -27,11 +27,11 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default function RootLayout({
+export default function SiteLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={cn(poppins.variable, "h-full antialiased")}>
+    <html lang="en" className={cn(poppins.variable, "h-full antialiased")}>
       <body className="min-h-full bg-background font-sans text-foreground">
         {children}
         <WelcomePopup />

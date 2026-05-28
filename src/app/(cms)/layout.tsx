@@ -1,5 +1,9 @@
 import "./outstatic-overrides.css";
 
 export default function CmsLayout({ children }: { children: React.ReactNode }) {
-  return <div id="outstatic">{children}</div>;
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body id="outstatic">{children}</body>
+    </html>
+  );
 }

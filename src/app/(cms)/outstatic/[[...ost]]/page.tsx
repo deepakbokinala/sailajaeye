@@ -1,6 +1,6 @@
 import "outstatic/outstatic.css";
 import { Outstatic } from "outstatic";
-import { OstClient } from "outstatic/client";
+import { OstClientWrapper } from "./client-wrapper";
 
 export default async function Page({
   params,
@@ -9,5 +9,5 @@ export default async function Page({
 }) {
   const ostData = await Outstatic();
   const { ost = [] } = await params;
-  return <OstClient ostData={ostData} params={{ ost }} />;
+  return <OstClientWrapper ostData={ostData} ost={ost} />;
 }
