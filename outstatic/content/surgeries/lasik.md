@@ -1,5 +1,5 @@
 ---
-title: LASI
+title: LASIK
 status: published
 description: Expert LASIK at Dr. Sailaja's Eye Hospital
 publishedAt: 2026-05-27T20:15:01.646Z
