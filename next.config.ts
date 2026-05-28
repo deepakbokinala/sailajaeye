@@ -11,6 +11,13 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "plus.unsplash.com" },
     ],
   },
+  // Include outstatic content files in the serverless function bundle so
+  // pages can re-read them during ISR revalidation on Vercel.
+  outputFileTracingIncludes: {
+    "/surgeries/[slug]": ["./outstatic/content/**/*"],
+    "/specialities/[slug]": ["./outstatic/content/**/*"],
+    "/": ["./outstatic/content/**/*"],
+  },
 };
 
 export default nextConfig;

@@ -21,6 +21,7 @@ export default function AboutPage() {
       <main>
         <AboutHero />
         <AboutIntro />
+        <OurTeam />
         <FounderDesk />
       </main>
       <Footer />
@@ -105,9 +106,76 @@ function AboutIntro() {
   );
 }
 
-function FounderDesk() {
+const TEAM_IMAGES = [
+  { src: "/team/team.jpg", alt: "Our team at Dr. Sailaja's Eye Hospital" },
+  { src: "/team/tea.jpg", alt: "Doctors and staff at work" },
+  { src: "/team/te.jpg", alt: "Specialists during a consultation" },
+  { src: "/team/t.jpg", alt: "Support staff caring for patients" },
+];
+
+function OurTeam() {
   return (
     <Section spacing="xl" tone="muted">
+      <Container size="full" padding="lg">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-5 text-center">
+          <Heading as="h2" size="h2" tone="brand">
+            Our Team
+          </Heading>
+          <Body>
+            Behind every restored vision is a team of people who care deeply
+            about what they do. Our ophthalmologists, optometrists, nurses, and
+            support staff bring decades of combined experience — and the kind
+            of unhurried attention that makes patients feel heard at every step.
+          </Body>
+        </div>
+
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+          {TEAM_IMAGES.map((img) => (
+            <div
+              key={img.src}
+              className="relative aspect-[4/3] w-full overflow-hidden rounded-card bg-surface-muted shadow-soft"
+            >
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                className="object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="mx-auto mt-14 grid max-w-4xl gap-5">
+          <Body>
+            From the consultation room to the operating theatre, our team works
+            as one. Senior specialists collaborate closely with junior doctors,
+            counsellors, and technicians so that every treatment plan reflects
+            the collective expertise of the hospital — not just one
+            practitioner&apos;s view.
+          </Body>
+          <Body>
+            We invest continuously in training and the latest ophthalmic
+            technology, because the standard of care should keep getting better
+            year after year. But what hasn&apos;t changed since day one is the
+            warmth — the small things, like remembering a patient&apos;s name,
+            walking an anxious family member through a procedure, or following
+            up after surgery to make sure everything is healing well.
+          </Body>
+          <Body>
+            We&apos;re proud of the trust our community has placed in us, and
+            we&apos;re grateful to every member of our team who shows up each
+            day to honour it.
+          </Body>
+        </div>
+      </Container>
+    </Section>
+  );
+}
+
+function FounderDesk() {
+  return (
+    <Section spacing="xl">
       <Container size="full" padding="lg">
         <div className="grid items-center gap-10 lg:grid-cols-[1fr_1fr] lg:gap-16">
           <div className="flex flex-col gap-5">
@@ -146,9 +214,9 @@ function FounderDesk() {
             </div>
           </div>
 
-          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-card">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-card">
             <Image
-              src="/doctor.png"
+              src="/sailaja.jpg"
               alt="Dr. P.S. Sailaja, Founder"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
