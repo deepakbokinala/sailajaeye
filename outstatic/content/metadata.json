@@ -1,498 +1,530 @@
 {
-  "commit": "d2e41d2901f2cb166001907839be40608f80a28e",
-  "generated": "2026-05-27T22:51:12.680Z",
+  "commit": "acb0425b9e7d27589e27c37935b8aba0fa5a34d5",
+  "generated": "2026-05-28T05:42:18.191Z",
   "metadata": [
     {
       "__outstatic": {
-        "slug": "amo-phaco-emulsification-white-star-with-ice",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/amo-phaco-emulsification-white-star-with-ice.md"
+        "path": "outstatic/content/surgeries/amo-phaco-emulsification-white-star-with-ice.md",
+        "slug": "amo-phaco-emulsification-white-star-with-ice"
       },
-      "title": "AMO Phaco Emulsification (White Star with ICE)",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert AMO Phaco Emulsification (White Star with ICE) at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.646Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "AMO Phaco Emulsification (White Star with ICE)"
     },
     {
       "__outstatic": {
-        "slug": "cataract-surgery",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/cataract-surgery.md"
+        "path": "outstatic/content/surgeries/cataract-surgery.md",
+        "slug": "cataract-surgery"
       },
-      "title": "Cataract Surgery",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Cataract Surgery at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:36:00.052Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Cataract Surgery"
     },
     {
       "__outstatic": {
-        "slug": "eye-surgery",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/eye-surgery.md"
+        "path": "outstatic/content/surgeries/eye-surgery.md",
+        "slug": "eye-surgery"
       },
-      "title": "Eye Surgery",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Eye Surgery at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.647Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Eye Surgery"
     },
     {
       "__outstatic": {
-        "slug": "eyelid-surgery",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/eyelid-surgery.md"
+        "path": "outstatic/content/surgeries/eyelid-surgery.md",
+        "slug": "eyelid-surgery"
       },
-      "title": "Eyelid Surgery",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Eyelid Surgery at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.646Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Eyelid Surgery"
     },
     {
       "__outstatic": {
-        "slug": "lasik",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/lasik.md"
+        "path": "outstatic/content/surgeries/lasik.md",
+        "slug": "lasik"
       },
-      "title": "LASIK",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert LASIK at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.646Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "LASIK"
     },
     {
       "__outstatic": {
-        "slug": "micro-incision-cataract-surgery-mics",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/micro-incision-cataract-surgery-mics.md"
+        "path": "outstatic/content/surgeries/micro-incision-cataract-surgery-mics.md",
+        "slug": "micro-incision-cataract-surgery-mics"
       },
-      "title": "Micro Incision Cataract Surgery (MICS)",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Micro Incision Cataract Surgery (MICS) at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.645Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Micro Incision Cataract Surgery (MICS)"
     },
     {
       "__outstatic": {
-        "slug": "oculoplasty",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/oculoplasty.md"
+        "path": "outstatic/content/surgeries/oculoplasty.md",
+        "slug": "oculoplasty"
       },
-      "title": "Oculoplasty",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Oculoplasty at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.646Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Oculoplasty"
     },
     {
       "__outstatic": {
-        "slug": "phaco-emulsification-cataract-surgery",
         "collection": "surgeries",
-        "path": "outstatic/content/surgeries/phaco-emulsification-cataract-surgery.md"
+        "path": "outstatic/content/surgeries/phaco-emulsification-cataract-surgery.md",
+        "slug": "phaco-emulsification-cataract-surgery"
       },
-      "title": "Phaco Emulsification Cataract Surgery",
-      "status": "published",
+      "coverImage": "",
       "description": "Expert Phaco Emulsification Cataract Surgery at Dr. Sailaja''s Eye Hospital",
       "publishedAt": "2026-05-27T20:15:01.645Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Phaco Emulsification Cataract Surgery"
     },
     {
       "__outstatic": {
-        "slug": "a-scan-biometry",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/a-scan-biometry.md"
+        "path": "outstatic/content/specialities/a-scan-biometry.md",
+        "slug": "a-scan-biometry"
       },
-      "title": "A-Scan Biometry",
-      "status": "published",
+      "coverImage": "",
       "description": "A-Scan Biometry — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "A-Scan Biometry"
     },
     {
       "__outstatic": {
-        "slug": "computerized-eye-testing",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/computerized-eye-testing.md"
+        "path": "outstatic/content/specialities/computerized-eye-testing.md",
+        "slug": "computerized-eye-testing"
       },
-      "title": "Computerized Eye Testing",
-      "status": "published",
+      "coverImage": "",
       "description": "Computerized Eye Testing — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.649Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Computerized Eye Testing"
     },
     {
       "__outstatic": {
-        "slug": "computerized-visual-field-analyzer",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/computerized-visual-field-analyzer.md"
+        "path": "outstatic/content/specialities/computerized-visual-field-analyzer.md",
+        "slug": "computerized-visual-field-analyzer"
       },
-      "title": "Computerized Visual Field Analyzer",
-      "status": "published",
+      "coverImage": "",
       "description": "Computerized Visual Field Analyzer — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.649Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Computerized Visual Field Analyzer"
     },
     {
       "__outstatic": {
-        "slug": "contact-lenses",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/contact-lenses.md"
+        "path": "outstatic/content/specialities/contact-lenses.md",
+        "slug": "contact-lenses"
       },
-      "title": "Contact Lenses",
-      "status": "published",
+      "coverImage": "",
       "description": "Contact Lenses — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.647Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Contact Lenses"
     },
     {
       "__outstatic": {
-        "slug": "lasers",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/lasers.md"
+        "path": "outstatic/content/specialities/lasers.md",
+        "slug": "lasers"
       },
-      "title": "Lasers",
-      "status": "published",
+      "coverImage": "",
       "description": "Lasers — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Lasers"
     },
     {
       "__outstatic": {
-        "slug": "non-mydriatic-fundus-camera-drs",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/non-mydriatic-fundus-camera-drs.md"
+        "path": "outstatic/content/specialities/non-mydriatic-fundus-camera-drs.md",
+        "slug": "non-mydriatic-fundus-camera-drs"
       },
-      "title": "Non-Mydriatic Fundus Camera (DRS)",
-      "status": "published",
+      "coverImage": "",
       "description": "Non-Mydriatic Fundus Camera (DRS) — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Non-Mydriatic Fundus Camera (DRS)"
     },
     {
       "__outstatic": {
-        "slug": "retina-clinic",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/retina-clinic.md"
+        "path": "outstatic/content/specialities/retina-clinic.md",
+        "slug": "retina-clinic"
       },
-      "title": "Retina Clinic",
-      "status": "published",
+      "coverImage": "",
       "description": "Retina Clinic — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.647Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Retina Clinic"
     },
     {
       "__outstatic": {
-        "slug": "squint-evaluation",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/squint-evaluation.md"
+        "path": "outstatic/content/specialities/squint-evaluation.md",
+        "slug": "squint-evaluation"
       },
-      "title": "Squint Evaluation",
-      "status": "published",
+      "coverImage": "",
       "description": "Squint Evaluation — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Squint Evaluation"
     },
     {
       "__outstatic": {
-        "slug": "tonometry",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/tonometry.md"
+        "path": "outstatic/content/specialities/tonometry.md",
+        "slug": "tonometry"
       },
-      "title": "Tonometry",
-      "status": "published",
+      "coverImage": "",
       "description": "Tonometry — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "Tonometry"
     },
     {
       "__outstatic": {
-        "slug": "yag-laser",
         "collection": "specialities",
-        "path": "outstatic/content/specialities/yag-laser.md"
+        "path": "outstatic/content/specialities/yag-laser.md",
+        "slug": "yag-laser"
       },
-      "title": "YAG Laser",
-      "status": "published",
+      "coverImage": "",
       "description": "YAG Laser — Specialised Eye Care Services",
       "publishedAt": "2026-05-27T20:15:01.648Z",
-      "coverImage": ""
+      "status": "published",
+      "title": "YAG Laser"
     },
     {
       "__outstatic": {
-        "slug": "avijit-ghatak",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/avijit-ghatak.md"
+        "path": "outstatic/content/testimonials/avijit-ghatak.md",
+        "slug": "avijit-ghatak"
       },
-      "title": "Avijit Ghatak",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=900&q=80",
       "description": "Cataract Surgery · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Avijit Ghatak"
     },
     {
       "__outstatic": {
-        "slug": "nimisha-jutur",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/nimisha-jutur.md"
+        "path": "outstatic/content/testimonials/nimisha-jutur.md",
+        "slug": "nimisha-jutur"
       },
-      "title": "Nimisha Jutur",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?auto=format&fit=crop&w=900&q=80",
       "description": "Regular Checkup · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Nimisha Jutur"
     },
     {
       "__outstatic": {
-        "slug": "prasanth-kumar",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/prasanth-kumar.md"
+        "path": "outstatic/content/testimonials/prasanth-kumar.md",
+        "slug": "prasanth-kumar"
       },
-      "title": "Prasanth Kumar",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=900&q=80",
       "description": "Cataract Surgery · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Prasanth Kumar"
     },
     {
       "__outstatic": {
-        "slug": "praveen-gopinathan",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/praveen-gopinathan.md"
+        "path": "outstatic/content/testimonials/praveen-gopinathan.md",
+        "slug": "praveen-gopinathan"
       },
-      "title": "Praveen Gopinathan",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80",
       "description": "Eye Treatment · January 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Praveen Gopinathan"
     },
     {
       "__outstatic": {
-        "slug": "preeti-anup",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/preeti-anup.md"
+        "path": "outstatic/content/testimonials/preeti-anup.md",
+        "slug": "preeti-anup"
       },
-      "title": "Preeti Anup",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=80",
       "description": "Cataract Surgery · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Preeti Anup"
     },
     {
       "__outstatic": {
-        "slug": "rohini-kothandapani",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/rohini-kothandapani.md"
+        "path": "outstatic/content/testimonials/rohini-kothandapani.md",
+        "slug": "rohini-kothandapani"
       },
-      "title": "Rohini Kothandapani",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
       "description": "Cataract Surgery · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Rohini Kothandapani"
     },
     {
       "__outstatic": {
-        "slug": "sandhya-singh",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/sandhya-singh.md"
+        "path": "outstatic/content/testimonials/sandhya-singh.md",
+        "slug": "sandhya-singh"
       },
-      "title": "Sandhya Singh",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=80",
       "description": "Cataract Surgery · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Sandhya Singh"
     },
     {
       "__outstatic": {
-        "slug": "uma-uma",
         "collection": "testimonials",
-        "path": "outstatic/content/testimonials/uma-uma.md"
+        "path": "outstatic/content/testimonials/uma-uma.md",
+        "slug": "uma-uma"
       },
-      "title": "Uma Uma",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80",
       "description": "Retina Checkup · April 2025",
       "publishedAt": "2025-04-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Uma Uma"
     },
     {
       "__outstatic": {
-        "slug": "dialysis-care",
         "collection": "blogs",
-        "path": "outstatic/content/blogs/dialysis-care.md"
+        "path": "outstatic/content/blogs/dialysis-care.md",
+        "slug": "dialysis-care"
       },
-      "title": "How to Choose the Best Dialysis Care in Bangalore for Kidney Patients",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-05-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "How to Choose the Best Dialysis Care in Bangalore for Kidney Patients"
     },
     {
       "__outstatic": {
-        "slug": "ent",
         "collection": "blogs",
-        "path": "outstatic/content/blogs/ent.md"
+        "path": "outstatic/content/blogs/ent.md",
+        "slug": "ent"
       },
-      "title": "Best ENT Hospital in Bangalore for Ear, Nose and Throat Problems",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80",
       "description": "ENT problems can affect breathing, hearing, sleep, and daily comfort. The best ENT hospital in Bangalore offers expert diagnosis, advanced treatment, and a multidisciplinary approach.",
       "publishedAt": "2025-05-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Best ENT Hospital in Bangalore for Ear, Nose and Throat Problems"
     },
     {
       "__outstatic": {
-        "slug": "pulmonology",
         "collection": "blogs",
-        "path": "outstatic/content/blogs/pulmonology.md"
+        "path": "outstatic/content/blogs/pulmonology.md",
+        "slug": "pulmonology"
       },
-      "title": "Best Pulmonology Hospital in Bangalore for TB, Asthma and Chronic Cough",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=1200&q=80",
       "description": "Breathing is something most of us take for granted, until something interrupts it. A persistent cough that does not go away, breathlessness during simple activities, recurrent chest tightness…",
       "publishedAt": "2025-05-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&w=1200&q=80"
+      "status": "published",
+      "title": "Best Pulmonology Hospital in Bangalore for TB, Asthma and Chronic Cough"
     },
     {
       "__outstatic": {
-        "slug": "spine-surgery",
         "collection": "blogs",
-        "path": "outstatic/content/blogs/spine-surgery.md"
+        "path": "outstatic/content/blogs/spine-surgery.md",
+        "slug": "spine-surgery"
       },
-      "title": "Back Pain After Lifting | Best Spine Surgery Hospital in Bangalore",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-05-01T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "Back Pain After Lifting | Best Spine Surgery Hospital in Bangalore"
     },
     {
       "__outstatic": {
-        "slug": "conjunctivitis-pollution",
         "collection": "news",
-        "path": "outstatic/content/news/conjunctivitis-pollution.md"
+        "path": "outstatic/content/news/conjunctivitis-pollution.md",
+        "slug": "conjunctivitis-pollution"
       },
-      "title": "Pollution, Weather Change Driving Conjunctivitis Cases In...",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-12-23T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "Pollution, Weather Change Driving Conjunctivitis Cases In..."
     },
     {
       "__outstatic": {
-        "slug": "eye-care-costs-bangalore",
         "collection": "news",
-        "path": "outstatic/content/news/eye-care-costs-bangalore.md"
+        "path": "outstatic/content/news/eye-care-costs-bangalore.md",
+        "slug": "eye-care-costs-bangalore"
       },
-      "title": "Simple Isn''t Simple! Bangaloreans Shelling Out Up To ₹1,00,000 To...",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-12-27T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "Simple Isn''t Simple! Bangaloreans Shelling Out Up To ₹1,00,000 To..."
     },
     {
       "__outstatic": {
-        "slug": "gummy-vitamins-risk",
         "collection": "news",
-        "path": "outstatic/content/news/gummy-vitamins-risk.md"
+        "path": "outstatic/content/news/gummy-vitamins-risk.md",
+        "slug": "gummy-vitamins-risk"
       },
-      "title": "Sweet but risky: The gummy vitamin boom",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-12-15T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "Sweet but risky: The gummy vitamin boom"
     },
     {
       "__outstatic": {
-        "slug": "psoriasis-winter",
         "collection": "news",
-        "path": "outstatic/content/news/psoriasis-winter.md"
+        "path": "outstatic/content/news/psoriasis-winter.md",
+        "slug": "psoriasis-winter"
       },
-      "title": "Winter dryness triggers rise in psoriasis cases in Bengaluru",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=240&q=80",
       "description": "",
       "publishedAt": "2025-12-22T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=240&q=80"
+      "status": "published",
+      "title": "Winter dryness triggers rise in psoriasis cases in Bengaluru"
     },
     {
       "__outstatic": {
-        "slug": "robotic-knee-replacement-teen",
         "collection": "news",
-        "path": "outstatic/content/news/robotic-knee-replacement-teen.md"
+        "path": "outstatic/content/news/robotic-knee-replacement-teen.md",
+        "slug": "robotic-knee-replacement-teen"
       },
-      "title": "17-yr-old boy undergoes robotic knee replacement surgery in the city",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=1200&q=80",
       "description": "17-yr-old boy undergoes robotic knee replacement surgery in the city, putting the spotlight on Bangalore''s growing edge in surgical innovation.",
       "publishedAt": "2025-02-18T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=1200&q=80"
+      "status": "published",
+      "title": "17-yr-old boy undergoes robotic knee replacement surgery in the city"
     },
     {
       "__outstatic": {
-        "slug": "womens-day-2025",
         "collection": "news",
-        "path": "outstatic/content/news/womens-day-2025.md"
+        "path": "outstatic/content/news/womens-day-2025.md",
+        "slug": "womens-day-2025"
       },
-      "title": "Women''s Day Celebration",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80",
       "description": "Celebrating Her Strength, Today and Always",
       "publishedAt": "2025-03-27T00:00:00.000Z",
-      "coverImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80"
+      "status": "published",
+      "title": "Women''s Day Celebration"
     },
     {
       "__outstatic": {
-        "slug": "dr-abhinay-i",
         "collection": "doctors",
-        "path": "outstatic/content/doctors/dr-abhinay-i.md"
+        "path": "outstatic/content/doctors/dr-abhinay-i.md",
+        "slug": "dr-abhinay-i"
       },
-      "title": "Dr. Abhinay I",
-      "status": "published",
+      "coverImage": "/doctor.png",
       "description": "Surgical Oncology",
       "publishedAt": "2026-05-27T22:51:12.680Z",
-      "coverImage": "/doctor.png"
+      "status": "published",
+      "title": "Dr. Abhinay I"
     },
     {
       "__outstatic": {
-        "slug": "dr-d-bharghavi",
         "collection": "doctors",
-        "path": "outstatic/content/doctors/dr-d-bharghavi.md"
+        "path": "outstatic/content/doctors/dr-d-bharghavi.md",
+        "slug": "dr-d-bharghavi"
       },
-      "title": "Dr. D Bharghavi",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80",
       "description": "Dietician",
       "publishedAt": "2026-05-27T22:51:12.680Z",
-      "coverImage": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+      "status": "published",
+      "title": "Dr. D Bharghavi"
     },
     {
       "__outstatic": {
-        "slug": "dr-meera-rao",
         "collection": "doctors",
-        "path": "outstatic/content/doctors/dr-meera-rao.md"
+        "path": "outstatic/content/doctors/dr-meera-rao.md",
+        "slug": "dr-meera-rao"
       },
-      "title": "Dr. Meera Rao",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80",
       "description": "Cardiology",
       "publishedAt": "2026-05-27T22:51:12.680Z",
-      "coverImage": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80"
+      "status": "published",
+      "title": "Dr. Meera Rao"
     },
     {
       "__outstatic": {
-        "slug": "dr-priya-nair",
         "collection": "doctors",
-        "path": "outstatic/content/doctors/dr-priya-nair.md"
+        "path": "outstatic/content/doctors/dr-priya-nair.md",
+        "slug": "dr-priya-nair"
       },
-      "title": "Dr. Priya Nair",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1638202993928-7267aad84c31?auto=format&fit=crop&w=600&q=80",
       "description": "Neurology",
       "publishedAt": "2026-05-27T22:51:12.680Z",
-      "coverImage": "https://images.unsplash.com/photo-1638202993928-7267aad84c31?auto=format&fit=crop&w=600&q=80"
+      "status": "published",
+      "title": "Dr. Priya Nair"
     },
     {
       "__outstatic": {
-        "slug": "dr-vivek-sharma",
         "collection": "doctors",
-        "path": "outstatic/content/doctors/dr-vivek-sharma.md"
+        "path": "outstatic/content/doctors/dr-vivek-sharma.md",
+        "slug": "dr-vivek-sharma"
       },
-      "title": "Dr. Vivek Sharma",
-      "status": "published",
+      "coverImage": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80",
       "description": "Orthopedics",
       "publishedAt": "2026-05-27T22:51:12.680Z",
-      "coverImage": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80"
+      "status": "published",
+      "title": "Dr. Vivek Sharma"
+    },
+    {
+      "__outstatic": {
+        "commit": "acb0425b9e7d27589e27c37935b8aba0fa5a34d5",
+        "hash": "101799734",
+        "path": "outstatic/content/surgeries/lasik.md"
+      },
+      "author": {
+        "name": "deepakbokinala@gmail.com",
+        "picture": "https://avatars.githubusercontent.com/u/59043111?v=4"
+      },
+      "collection": "surgeries",
+      "coverImage": "",
+      "ctaButtonLabel": "Book your appointment today!",
+      "ctaButtonUrl": "https://kivihealth.com/iam/sai.laja.15614/bookslot",
+      "ctaText": "Dr. Sailaja's Eye Hospital can help if you seek expert lasik care and treatment. Contact us today to schedule your consultation.",
+      "description": "Expert LASIK at Dr. Sailaja's Eye Hospital",
+      "doctors": "[]",
+      "pageType": "surgery",
+      "publishedAt": "2026-05-27T20:15:01.646Z",
+      "seoDescription": "",
+      "seoTitle": "",
+      "services": "[{\"title\":\"LASIK Consultation\",\"description\":\"Comprehensive consultation and evaluation by our expert refractive specialists to determine the best course of treatment for your condition.\"},{\"title\":\"Pre-Procedure Assessment\",\"description\":\"Thorough pre-operative assessment including detailed eye examination, biometry, and health screening to ensure safe and successful outcomes.\"}]",
+      "servicesDescription": "Our lasik services encompass a range of advanced diagnostic and treatment options tailored to each patient's needs.",
+      "servicesHeading": "LASIK — Services & Procedures",
+      "slug": "lasik",
+      "status": "published",
+      "subtitle": "Expert LASIK at Dr. Sailaja's Eye Hospital",
+      "testimonials": "[]",
+      "title": "LASI",
+      "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
+      "whyChooseUsHeading": "Why Choose Dr. Sailaja's for LASIK?"
     }
   ]
 }
