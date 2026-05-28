@@ -1,6 +1,6 @@
 {
-  "commit": "7437ad3b00e3b7a49c47dd9b037d6d9d888872b3",
-  "generated": "2026-05-28T05:44:22.399Z",
+  "commit": "0888101f80acad3141cf896eb7e3935e8c34c695",
+  "generated": "2026-05-28T05:53:50.515Z",
   "metadata": [
     {
       "__outstatic": {
@@ -557,6 +557,38 @@
       "title": "Contact Lenses",
       "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
       "whyChooseUsHeading": "Why Choose Dr. Sailaja's for Contact Lenses?"
+    },
+    {
+      "__outstatic": {
+        "commit": "0888101f80acad3141cf896eb7e3935e8c34c695",
+        "hash": "4221038074",
+        "path": "outstatic/content/surgeries/cataract-surgery.md"
+      },
+      "author": {
+        "name": "deepakbokinala@gmail.com",
+        "picture": "https://avatars.githubusercontent.com/u/59043111?v=4"
+      },
+      "collection": "surgeries",
+      "coverImage": "",
+      "ctaButtonLabel": "Book your appointment today!",
+      "ctaButtonUrl": "https://kivihealth.com/iam/sai.laja.15614/bookslot",
+      "ctaText": "Dr. Sailaja's Eye Hospital can help if you seek expert cataract surgery care and treatment. Contact us today to schedule your consultation.",
+      "description": "Expert Cataract Surgery at Dr. Sailaja's Eye Hospital",
+      "doctors": "[]",
+      "pageType": "surgery",
+      "publishedAt": "2026-05-27T20:36:00.052Z",
+      "seoDescription": "",
+      "seoTitle": "",
+      "services": "[{\"title\":\"Cataract Surgery Consultation\",\"description\":\"Comprehensive consultation and evaluation by our expert cataract specialists to determine the best course of treatment for your condition.\"},{\"title\":\"Pre-Procedure Assessment\",\"description\":\"Thorough pre-operative assessment including detailed eye examination, biometry, and health screening to ensure safe and successful outcomes.\"}]",
+      "servicesDescription": "Our cataract surgery services encompass a range of advanced diagnostic and treatment options tailored to each patient's needs.",
+      "servicesHeading": "Cataract Surgery — Services & Procedures",
+      "slug": "cataract-surgery",
+      "status": "published",
+      "subtitle": "Expert Cataract Surgery at Dr. Sailaja's Eye Hospital",
+      "testimonials": "[]",
+      "title": "Cataract Surgery",
+      "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
+      "whyChooseUsHeading": "Why Choose Dr. Sailaja's for Cataract Surgery?"
     }
   ]
 }
