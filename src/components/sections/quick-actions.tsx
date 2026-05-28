@@ -65,10 +65,34 @@ const ACTIONS: QuickAction[] = [
 
 export function QuickActions() {
   return (
-    <section className="relative z-10 -mt-10 hidden md:block sm:-mt-14">
+    <section className="relative z-10 pt-8 md:-mt-10 md:pt-0 lg:-mt-14">
       <Container size="full" padding="lg">
-        <div className="overflow-hidden rounded-pill bg-surface shadow-soft-lg">
-          <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+        {/* Mobile: 2-column card grid */}
+        <ul className="grid grid-cols-2 gap-3 md:hidden">
+          {ACTIONS.map(({ label, href, icon, alt }) => (
+            <li key={alt}>
+              <Link
+                href={href}
+                className="group flex h-full flex-col items-center justify-center gap-3 rounded-card bg-surface px-4 py-7 text-center text-foreground shadow-soft transition-colors hover:bg-brand hover:text-white"
+              >
+                <img
+                  src={icon}
+                  alt={alt}
+                  className="size-10 shrink-0 transition group-hover:brightness-0 group-hover:invert"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <h5 className="text-base font-semibold leading-snug">
+                  {label}
+                </h5>
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        {/* Tablet & desktop: single pill bar */}
+        <div className="hidden overflow-hidden rounded-pill bg-surface shadow-soft-lg md:block">
+          <ul className="grid md:grid-cols-3 lg:grid-cols-5">
             {ACTIONS.map(({ label, href, icon, alt }, index) => (
               <li
                 key={alt}

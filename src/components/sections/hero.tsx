@@ -60,7 +60,7 @@ export function Hero() {
 
   return (
     <section className="relative w-full">
-      <div className="relative h-[260px] w-full overflow-hidden sm:h-[360px] lg:h-[480px]">
+      <div className="relative h-[500px] w-full overflow-hidden sm:h-[520px] lg:h-[560px]">
         {SLIDES.map((slide, i) => (
           <div
             key={slide.src}
