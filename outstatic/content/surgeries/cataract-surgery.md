@@ -1,5 +1,5 @@
 ---
-title: Cataract Surgery
+title: Cataract
 status: published
 description: Expert Cataract Surgery at Dr. Sailaja's Eye Hospital
 publishedAt: 2026-05-27T20:36:00.052Z
