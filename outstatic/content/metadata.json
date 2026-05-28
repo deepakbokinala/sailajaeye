@@ -1,6 +1,6 @@
 {
-  "commit": "4dea7ab14e91b12e63b6d4d1f2ca3c054213e381",
-  "generated": "2026-05-28T05:55:00.786Z",
+  "commit": "33e0a90293c17ec2a1adcf4a50f5b55743bff648",
+  "generated": "2026-05-28T05:55:36.105Z",
   "metadata": [
     {
       "__outstatic": {
@@ -560,8 +560,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4dea7ab14e91b12e63b6d4d1f2ca3c054213e381",
-        "hash": "1509840971",
+        "commit": "33e0a90293c17ec2a1adcf4a50f5b55743bff648",
+        "hash": "4221038074",
         "path": "outstatic/content/surgeries/cataract-surgery.md"
       },
       "author": {
@@ -586,7 +586,7 @@
       "status": "published",
       "subtitle": "Expert Cataract Surgery at Dr. Sailaja's Eye Hospital",
       "testimonials": "[]",
-      "title": "Cataract",
+      "title": "Cataract Surgery",
       "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
       "whyChooseUsHeading": "Why Choose Dr. Sailaja's for Cataract Surgery?"
     }
