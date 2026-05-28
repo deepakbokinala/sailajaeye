@@ -30,7 +30,6 @@ const NAV: NavItem[] = [
     href: "/specialities",
     megaMenuGroups: SPECIALITY_GROUPS,
   },
-  { label: "Investigation Reports", href: "/reports" },
 ];
 
 interface SidebarItem {
@@ -51,7 +50,6 @@ const SIDEBAR_NAV: SidebarItem[] = [
   },
   { label: "Health Packages", href: "/health-packages" },
   { label: "Book Appointment", href: "https://kivihealth.com/iam/sai.laja.15614/bookslot" },
-  { label: "Investigation Reports", href: "/reports" },
   { label: "Blog", href: "/blog" },
   { label: "News", href: "/news" },
   { label: "Contact Us", href: "/contact" },

@@ -57,7 +57,6 @@ const QUICKLINKS = [
   ["Leadership Team", "/leadership"],
   ["Book Appointment", "https://kivihealth.com/iam/sai.laja.15614/bookslot"],
   ["Health Packages", "/packages"],
-  ["Investigation Reports", "/reports"],
   ["Careers", "/careers"],
   ["Blogs", "/blogs"],
   ["News & Events", "/news"],

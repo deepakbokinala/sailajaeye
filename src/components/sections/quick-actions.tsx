@@ -34,16 +34,6 @@ const ACTIONS: QuickAction[] = [
   {
     label: (
       <>
-        Get a Second<br />Opinion
-      </>
-    ),
-    href: "/second-opinion",
-    icon: `${ICON_BASE}/doctor-male-outline.svg`,
-    alt: "Opinion",
-  },
-  {
-    label: (
-      <>
         Optical<br />Store
       </>
     ),
@@ -92,7 +82,7 @@ export function QuickActions() {
 
         {/* Tablet & desktop: single pill bar */}
         <div className="hidden overflow-hidden rounded-pill bg-surface shadow-soft-lg md:block">
-          <ul className="grid md:grid-cols-3 lg:grid-cols-5">
+          <ul className="grid md:grid-cols-2 lg:grid-cols-4">
             {ACTIONS.map(({ label, href, icon, alt }, index) => (
               <li
                 key={alt}
