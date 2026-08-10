@@ -14,8 +14,16 @@ const nextConfig: NextConfig = {
   // Include outstatic content files in the serverless function bundle so
   // pages can re-read them during ISR revalidation on Vercel.
   outputFileTracingIncludes: {
+    "/surgeries": ["./outstatic/content/**/*"],
     "/surgeries/[slug]": ["./outstatic/content/**/*"],
+    "/specialities": ["./outstatic/content/**/*"],
     "/specialities/[slug]": ["./outstatic/content/**/*"],
+    "/blog": ["./outstatic/content/**/*"],
+    "/blog/[slug]": ["./outstatic/content/**/*"],
+    "/news": ["./outstatic/content/**/*"],
+    "/news/[slug]": ["./outstatic/content/**/*"],
+    "/health-packages": ["./outstatic/content/**/*"],
+    "/leadership": ["./outstatic/content/**/*"],
     "/": ["./outstatic/content/**/*"],
   },
 };
