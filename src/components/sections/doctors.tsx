@@ -21,6 +21,8 @@ import { cn } from "@/lib/utils";
 export interface DoctorItem {
   name: string;
   specialty: string;
+  credentials?: string;
+  subtitle?: string;
   image: string;
 }
 
@@ -104,24 +106,56 @@ export function Doctors({ items }: { items: DoctorItem[] }) {
   );
 }
 
+function getInitials(name: string): string {
+  return name
+    .replace(/^Dr\.?\s+/i, "")
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase() ?? "")
+    .join("");
+}
+
 function DoctorCard({ doctor }: { doctor: DoctorItem }) {
   return (
-    <Card interactive className="overflow-hidden">
-      <div className="relative aspect-[4/5] w-full overflow-hidden bg-surface-muted">
-        <Image
-          src={doctor.image}
-          alt={doctor.name}
-          fill
-          sizes="(min-width: 1280px) 18rem, (min-width: 640px) 40vw, 90vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/50 to-transparent" />
+    <Card interactive className="flex h-full flex-col overflow-hidden">
+      <div className="relative aspect-[4/5] w-full shrink-0 overflow-hidden bg-brand/10">
+        {doctor.image ? (
+          <>
+            <Image
+              src={doctor.image}
+              alt={doctor.name}
+              fill
+              sizes="(min-width: 1280px) 18rem, (min-width: 640px) 40vw, 90vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/50 to-transparent" />
+          </>
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-brand/20 to-brand/5">
+            <span className="text-5xl font-light text-brand">
+              {getInitials(doctor.name)}
+            </span>
+          </div>
+        )}
       </div>
-      <div className="flex flex-col items-center gap-1 px-5 py-5 text-center">
+      <div className="flex flex-1 flex-col items-center justify-center gap-1 px-5 py-5 text-center">
+        <span className="text-sm font-medium text-brand">
+          {doctor.specialty}
+        </span>
         <span className="text-base font-semibold text-foreground">
           {doctor.name}
         </span>
-        <span className="text-sm text-muted-foreground">{doctor.specialty}</span>
+        {doctor.credentials ? (
+          <span className="text-xs text-muted-foreground">
+            {doctor.credentials}
+          </span>
+        ) : null}
+        {doctor.subtitle ? (
+          <span className="mt-1 text-xs text-muted-foreground">
+            {doctor.subtitle}
+          </span>
+        ) : null}
       </div>
     </Card>
   );

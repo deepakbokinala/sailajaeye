@@ -75,16 +75,21 @@ export function getNews(): NewsData[] {
 export interface DoctorData {
   name: string;
   specialty: string;
+  credentials: string;
+  subtitle: string;
   image: string;
 }
 
 export function getDoctors(): DoctorData[] {
   const docs = getDocuments("doctors", [
-    "title", "slug", "coverImage", "description", "specialty",
+    "title", "slug", "coverImage", "description",
+    "specialty", "credentials", "subtitle",
   ]);
   return docs.map((d) => ({
     name: d.title,
     specialty: (d as Record<string, string>).specialty || d.description || "",
+    credentials: (d as Record<string, string>).credentials || "",
+    subtitle: (d as Record<string, string>).subtitle || "",
     image: d.coverImage || "",
   }));
 }

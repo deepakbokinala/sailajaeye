@@ -6,6 +6,16 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Specialty"
+    },
+    "credentials": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Credentials (MBBS, DOMS, etc.)"
+    },
+    "subtitle": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Subtitle (sub-specialities)"
     }
   }
 }
