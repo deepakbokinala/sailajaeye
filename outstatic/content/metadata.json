@@ -1,6 +1,6 @@
 {
-  "commit": "ec5272004abc942d5b8484c2852ce603650b11b2",
-  "generated": "2026-08-10T16:59:54.598Z",
+  "commit": "9246220a6f785cfe7ed86454a8385591e39d6bf9",
+  "generated": "2026-08-10T17:00:17.556Z",
   "metadata": [
     {
       "__outstatic": {
@@ -580,8 +580,8 @@
     },
     {
       "__outstatic": {
-        "commit": "ec5272004abc942d5b8484c2852ce603650b11b2",
-        "hash": "1980209118",
+        "commit": "9246220a6f785cfe7ed86454a8385591e39d6bf9",
+        "hash": "2352729422",
         "path": "outstatic/content/health-packages/test-package.md"
       },
       "author": {
@@ -591,7 +591,7 @@
       "collection": "health-packages",
       "publishedAt": "2026-08-10T17:32:46.460Z",
       "slug": "test-package",
-      "status": "draft",
+      "status": "published",
       "title": "Test Package"
     }
   ]
