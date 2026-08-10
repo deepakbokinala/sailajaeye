@@ -127,15 +127,6 @@ export function Header() {
               <div className="flex items-center gap-4">
                 <button
                   type="button"
-                  className="hidden h-9 items-center gap-3 rounded-pill border border-brand pl-4 text-sm font-medium text-foreground transition-colors hover:bg-brand/5 md:inline-flex"
-                >
-                  <span>Select Language</span>
-                  <span className="flex h-full items-center border-l border-brand pl-2 pr-3 text-brand">
-                    <ChevronDown className="size-4" strokeWidth={2.25} />
-                  </span>
-                </button>
-                <button
-                  type="button"
                   aria-label="Open menu"
                   aria-expanded={open}
                   aria-controls="primary-sidebar"
