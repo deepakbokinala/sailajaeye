@@ -8,6 +8,5 @@ export { Doctors } from "./doctors";
 export type { DoctorItem } from "./doctors";
 export { Testimonials } from "./testimonials";
 export type { TestimonialItem } from "./testimonials";
-export { NewsEvents } from "./news-events";
 export { Blogs } from "./blogs";
 export { BrandSlider } from "./brand-slider";

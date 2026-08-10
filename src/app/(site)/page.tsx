@@ -7,7 +7,6 @@ import {
   Hero,
   Intro,
   LeaderQuote,
-  // NewsEvents,
   QuickActions,
   Specialties,
   Testimonials,
@@ -30,7 +29,6 @@ export default function Home() {
         <Specialties />
         <Doctors items={doctors} />
         <Testimonials items={testimonials} />
-        {/* <NewsEvents /> */}
         <Blogs />
         <BrandSlider />
       </main>

@@ -16,6 +16,11 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Subtitle (sub-specialities)"
+    },
+    "leadership": {
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Show on the Leadership Team page"
     }
   }
 }

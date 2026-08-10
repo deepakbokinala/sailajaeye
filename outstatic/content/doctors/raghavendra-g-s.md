@@ -7,6 +7,7 @@ coverImage: ''
 specialty: 'Chief Consultant Optometrist, Co-founder'
 credentials: 'B.Optom, IACLE'
 subtitle: 'Specialty Contact Lenses · Vision Therapy · Paediatric Optometry · Squint'
+leadership: true
 ---
 
 Raghavendra G.S is the Chief Consultant Optometrist and Co-founder of the hospital. His areas of focus include specialty contact lenses, vision therapy, paediatric optometry, and squint evaluation.

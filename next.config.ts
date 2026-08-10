@@ -20,8 +20,6 @@ const nextConfig: NextConfig = {
     "/specialities/[slug]": ["./outstatic/content/**/*"],
     "/blog": ["./outstatic/content/**/*"],
     "/blog/[slug]": ["./outstatic/content/**/*"],
-    "/news": ["./outstatic/content/**/*"],
-    "/news/[slug]": ["./outstatic/content/**/*"],
     "/health-packages": ["./outstatic/content/**/*"],
     "/leadership": ["./outstatic/content/**/*"],
     "/": ["./outstatic/content/**/*"],

@@ -56,10 +56,9 @@ const SERVICES = [
 const QUICKLINKS = [
   ["Leadership Team", "/leadership"],
   ["Book Appointment", "https://kivihealth.com/iam/sai.laja.15614/bookslot"],
-  ["Health Packages", "/packages"],
+  ["Health Packages", "/health-packages"],
   ["Careers", "/careers"],
-  ["Blogs", "/blogs"],
-  ["News & Events", "/news"],
+  ["Blogs", "/blog"],
   ["Gallery", "/gallery"],
   ["Contact Us", "/contact"],
   ["Voices of Dr. Sailaja's", "/voices"],

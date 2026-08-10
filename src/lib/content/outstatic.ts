@@ -55,24 +55,23 @@ export interface ArticleData {
   date: string;
 }
 
-/** Full article for a blog or news detail page. Returns null when absent. */
+/** Full article for a blog detail page. Returns null when absent. */
 export function getArticle(
-  collection: "blogs" | "news",
+  collection: "blogs",
   slug: string
 ): ArticleData | null {
   const doc = getDocumentBySlug(collection, slug, [
     "title", "slug", "content", "coverImage", "description",
-    "publishedAt", "eventDate",
+    "publishedAt",
   ]);
   if (!doc?.title) return null;
-  const raw = doc as Record<string, string>;
   return {
     title: doc.title,
     slug: doc.slug,
     description: doc.description || "",
     body: doc.content?.trim() || "",
     image: doc.coverImage || "",
-    date: formatDate(raw.eventDate || doc.publishedAt),
+    date: formatDate(doc.publishedAt),
   };
 }
 
@@ -85,35 +84,6 @@ function formatDate(value: string | undefined): string {
     day: "numeric",
     month: "long",
     year: "numeric",
-  });
-}
-
-export interface NewsData {
-  title: string;
-  slug: string;
-  date: string;
-  image: string;
-  href: string;
-  excerpt: string;
-  featured: boolean;
-}
-
-export function getNews(): NewsData[] {
-  const docs = getDocuments("news", [
-    "title", "slug", "content", "coverImage", "description",
-    "publishedAt", "featured", "eventDate",
-  ]);
-  return docs.map((d) => {
-    const raw = d as Record<string, string>;
-    return {
-      title: d.title,
-      slug: d.slug,
-      date: formatDate(raw.eventDate || d.publishedAt),
-      image: d.coverImage || "",
-      href: `/news/${d.slug}`,
-      excerpt: d.description || d.content?.slice(0, 200) || "",
-      featured: Boolean((d as Record<string, unknown>).featured),
-    };
   });
 }
 
@@ -145,20 +115,33 @@ export interface LeaderData extends DoctorData {
   bio: string;
 }
 
+/**
+ * Only doctors flagged `leadership` in the CMS. The Leadership page is a
+ * deliberate subset of the roster, not everyone who consults here — toggle
+ * "Show on the Leadership Team page" in /outstatic to change who appears.
+ */
 export function getLeadership(): LeaderData[] {
   const docs = getDocuments("doctors", [
     "title", "slug", "content", "coverImage", "description",
-    "specialty", "credentials", "subtitle",
+    "specialty", "credentials", "subtitle", "leadership",
   ]);
-  return docs.map((d) => ({
-    name: d.title,
-    slug: d.slug,
-    specialty: (d as Record<string, string>).specialty || d.description || "",
-    credentials: (d as Record<string, string>).credentials || "",
-    subtitle: (d as Record<string, string>).subtitle || "",
-    image: d.coverImage || "",
-    bio: d.content?.trim() || "",
-  }));
+  return docs
+    .filter((d) => Boolean((d as Record<string, unknown>).leadership))
+    .map((d) => ({
+      name: d.title,
+      slug: d.slug,
+      specialty: (d as Record<string, string>).specialty || d.description || "",
+      credentials: (d as Record<string, string>).credentials || "",
+      subtitle: (d as Record<string, string>).subtitle || "",
+      image: d.coverImage || "",
+      bio: d.content?.trim() || "",
+    }))
+    // Medical Director leads; otherwise keep a stable, name-based order.
+    .sort((a, b) => {
+      const rank = (l: LeaderData) =>
+        /medical director/i.test(l.specialty) ? 0 : 1;
+      return rank(a) - rank(b) || a.name.localeCompare(b.name);
+    });
 }
 
 export interface HealthPackageData {

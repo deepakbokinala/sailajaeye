@@ -51,7 +51,6 @@ const SIDEBAR_NAV: SidebarItem[] = [
   { label: "Health Packages", href: "/health-packages" },
   { label: "Book Appointment", href: "https://kivihealth.com/iam/sai.laja.15614/bookslot" },
   { label: "Blog", href: "/blog" },
-  { label: "News", href: "/news" },
   { label: "Contact Us", href: "/contact" },
   { label: "Careers", href: "/careers" },
 ];
