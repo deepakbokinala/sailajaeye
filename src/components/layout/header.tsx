@@ -140,12 +140,14 @@ export function Header() {
         </div>
       </header>
 
+      {/* The wrapper no longer fades. Animating opacity on an ancestor of a
+          backdrop-filter makes the browser re-blur the page every frame, which
+          is what made the blur feel like it arrived late. The backdrop now owns
+          its own transition instead. */}
       <div
         className={cn(
-          "fixed inset-0 z-50 transition-opacity duration-300",
-          open
-            ? "pointer-events-auto opacity-100"
-            : "pointer-events-none opacity-0"
+          "fixed inset-0 z-50",
+          open ? "pointer-events-auto" : "pointer-events-none"
         )}
         aria-hidden={!open}
       >
@@ -154,7 +156,11 @@ export function Header() {
           tabIndex={open ? 0 : -1}
           aria-label="Close menu"
           onClick={closeSidebar}
-          className="absolute inset-0 bg-foreground/40 backdrop-blur-sm"
+          className={cn(
+            "absolute inset-0 bg-foreground/40 backdrop-blur-sm",
+            "transition-opacity duration-200 ease-out motion-reduce:transition-none",
+            open ? "opacity-100" : "opacity-0"
+          )}
         />
 
         <aside
@@ -163,7 +169,8 @@ export function Header() {
           aria-modal="true"
           aria-label="Site navigation"
           className={cn(
-            "absolute inset-y-0 right-0 flex w-full max-w-md flex-col bg-surface shadow-soft-lg transition-transform duration-300 ease-out",
+            "absolute inset-y-0 right-0 flex w-full max-w-md flex-col bg-surface shadow-soft-lg",
+            "transition-transform duration-300 ease-out motion-reduce:transition-none",
             open ? "translate-x-0" : "translate-x-full"
           )}
         >
