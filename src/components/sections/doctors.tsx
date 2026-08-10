@@ -119,7 +119,9 @@ function getInitials(name: string): string {
 function DoctorCard({ doctor }: { doctor: DoctorItem }) {
   return (
     <Card interactive className="group flex h-full flex-col overflow-hidden">
-      <div className="relative aspect-[4/5] w-full shrink-0 overflow-hidden bg-brand/10">
+      {/* 4:3 matches the source photos (e.g. sailaja.jpg is 1280x960), so
+          object-cover crops nothing. */}
+      <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden bg-brand/10">
         {doctor.image ? (
           <>
             <Image
