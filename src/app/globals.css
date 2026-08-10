@@ -6,17 +6,17 @@
 /*  rebrand the entire site.                                                   */
 /* -------------------------------------------------------------------------- */
 @theme {
-  /* Brand — amber-gold scale (derived from logo's golden circle) */
-  --color-brand-50: #fdf8eb;
-  --color-brand-100: #f9edcc;
-  --color-brand-200: #f0d895;
-  --color-brand-300: #e4be58;
-  --color-brand-400: #d5a52e;
-  --color-brand-500: #bb8d20;
-  --color-brand-600: #997318;
-  --color-brand: #8B6914;
-  --color-brand-dark: #6b510f;
-  --color-brand-darker: #4d3a0b;
+  /* Brand — dark lavender scale */
+  --color-brand-50: #f7f5fb;
+  --color-brand-100: #eeeaf7;
+  --color-brand-200: #ddd5ee;
+  --color-brand-300: #c2b5e0;
+  --color-brand-400: #9f8dc8;
+  --color-brand-500: #7c6bb0;
+  --color-brand-600: #665699;
+  --color-brand: #5B4B8A;
+  --color-brand-dark: #46386b;
+  --color-brand-darker: #31264d;
 
   /* Surfaces — clean with subtle warmth */
   --color-background: #f8f7f3;
@@ -24,17 +24,17 @@
   --color-surface-muted: #f2f1ec;
 
   /* Text — cool neutrals for clinical clarity */
-  --color-foreground: #1a1814;
+  --color-foreground: #1a1720;
   --color-muted-foreground: #64748b;
   --color-subtle-foreground: #94a3b8;
 
   /* Borders */
-  --color-border: rgba(26, 24, 16, 0.08);
-  --color-border-strong: rgba(26, 24, 16, 0.14);
+  --color-border: rgba(26, 23, 32, 0.08);
+  --color-border-strong: rgba(26, 23, 32, 0.14);
 
-  /* Footer — deep charcoal from logo outline */
-  --color-footer: #2a2720;
-  --color-footer-foreground: #f8f7f0;
+  /* Footer — deep lavender charcoal */
+  --color-footer: #2a2438;
+  --color-footer-foreground: #f5f3fa;
 
   /* Radii */
   --radius-pill: 9999px;
@@ -47,8 +47,8 @@
   /* Shadows */
   --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.06);
   --shadow-soft-lg: 0 18px 50px rgba(0, 0, 0, 0.08);
-  --shadow-ring: 0 0 0 1px rgba(26, 24, 16, 0.05);
-  --shadow-brand: 0 12px 30px rgba(139, 105, 20, 0.20);
+  --shadow-ring: 0 0 0 1px rgba(26, 23, 32, 0.05);
+  --shadow-brand: 0 12px 30px rgba(91, 75, 138, 0.22);
 
   /* Container */
   --container-7xl: 1280px;
