@@ -1,0 +1,36 @@
+{
+  "title": "health-packages",
+  "type": "object",
+  "properties": {
+    "price": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Price (e.g. 1499) — leave blank for 'On request'"
+    },
+    "originalPrice": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Original Price (optional, shown struck through)"
+    },
+    "duration": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Duration (e.g. 45 minutes)"
+    },
+    "bestFor": {
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Best For (e.g. Adults above 40)"
+    },
+    "tests": {
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Tests Included — JSON array of strings"
+    },
+    "featured": {
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Highlight this package"
+    }
+  }
+}

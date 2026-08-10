@@ -34,5 +34,11 @@
     "slug": "doctors",
     "path": "outstatic/content/doctors",
     "children": []
+  },
+  {
+    "title": "Health Packages",
+    "slug": "health-packages",
+    "path": "outstatic/content/health-packages",
+    "children": []
   }
 ]
