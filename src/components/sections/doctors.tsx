@@ -88,7 +88,7 @@ export function Doctors({ items }: { items: DoctorItem[] }) {
               className="!pb-2"
             >
               {items.map((doctor) => (
-                <SwiperSlide key={doctor.name} className="h-auto">
+                <SwiperSlide key={doctor.name} className="!h-auto">
                   <DoctorCard doctor={doctor} />
                 </SwiperSlide>
               ))}
@@ -118,7 +118,7 @@ function getInitials(name: string): string {
 
 function DoctorCard({ doctor }: { doctor: DoctorItem }) {
   return (
-    <Card interactive className="flex h-full flex-col overflow-hidden">
+    <Card interactive className="group flex h-full flex-col overflow-hidden">
       <div className="relative aspect-[4/5] w-full shrink-0 overflow-hidden bg-brand/10">
         {doctor.image ? (
           <>
@@ -139,20 +139,21 @@ function DoctorCard({ doctor }: { doctor: DoctorItem }) {
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col items-center justify-center gap-1 px-5 py-5 text-center">
-        <span className="text-sm font-medium text-brand">
+      {/* Fixed rows so the name sits at the same height on every card: the
+          specialty reserves two lines and the credentials one, whether or not
+          the doctor has them. The subtitle is pushed to the card foot. */}
+      <div className="flex flex-1 flex-col items-center px-5 pb-6 pt-5 text-center">
+        <span className="flex min-h-[2.375rem] items-center text-sm font-medium leading-snug text-brand">
           {doctor.specialty}
         </span>
-        <span className="text-base font-semibold text-foreground">
+        <span className="mt-1.5 text-base font-semibold leading-snug text-foreground">
           {doctor.name}
         </span>
-        {doctor.credentials ? (
-          <span className="text-xs text-muted-foreground">
-            {doctor.credentials}
-          </span>
-        ) : null}
+        <span className="mt-1 min-h-[1.25rem] text-xs leading-5 text-muted-foreground">
+          {doctor.credentials}
+        </span>
         {doctor.subtitle ? (
-          <span className="mt-1 text-xs text-muted-foreground">
+          <span className="mt-auto pt-3 text-xs leading-5 text-muted-foreground">
             {doctor.subtitle}
           </span>
         ) : null}
