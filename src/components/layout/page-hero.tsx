@@ -1,12 +1,23 @@
 import Image from "next/image";
 import { Container } from "@/components/ui";
 
+/** Which part of the photo survives the crop. Defaults to centre. */
+type FocalPoint = "top" | "center" | "bottom";
+
+const FOCAL_CLASS: Record<FocalPoint, string> = {
+  top: "object-top",
+  center: "object-center",
+  bottom: "object-bottom",
+};
+
 interface PageHeroProps {
   title: string;
   subtitle?: string;
   image?: string;
   /** Decorative by default — the title already names the page. */
   imageAlt?: string;
+  /** Use "top" for group photos, so faces aren't cropped out. */
+  focalPoint?: FocalPoint;
 }
 
 /**
@@ -18,6 +29,7 @@ export function PageHero({
   subtitle,
   image = "/carousel/carousel-three.jpg",
   imageAlt = "",
+  focalPoint = "center",
 }: PageHeroProps) {
   return (
     <section className="relative w-full">
@@ -28,7 +40,7 @@ export function PageHero({
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className={`object-cover ${FOCAL_CLASS[focalPoint]}`}
         />
         <div className="absolute inset-0 bg-brand/70" />
         <div className="absolute inset-0 flex items-end">

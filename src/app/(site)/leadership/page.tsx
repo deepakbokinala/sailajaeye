@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { Header, Footer } from "@/components/layout";
+import { Header, Footer, PageHero } from "@/components/layout";
 import { Body, Container, Heading, Section } from "@/components/ui";
 import { getLeadership, type LeaderData } from "@/lib/content/outstatic";
 
@@ -19,43 +19,19 @@ export default function LeadershipPage() {
     <>
       <Header />
       <main>
-        <LeadershipHero />
+        <PageHero
+          title="Leadership Team"
+          subtitle="The People Behind Every Restored Vision"
+          image="/team/team.jpg"
+          imageAlt="The team at Dr. Sailaja's Eye Hospital"
+          focalPoint="top"
+        />
         <LeadershipIntro />
         <LeaderProfiles leaders={leaders} />
         <LeadershipCTA />
       </main>
       <Footer />
     </>
-  );
-}
-
-function LeadershipHero() {
-  return (
-    <section className="relative w-full">
-      <div className="relative h-[240px] w-full overflow-hidden sm:h-[320px] lg:h-[400px]">
-        <Image
-          src="/team/team.jpg"
-          alt="The team at Dr. Sailaja's Eye Hospital"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-brand/70" />
-        <div className="absolute inset-0 flex items-end">
-          <Container size="full" padding="lg">
-            <div className="pb-10 lg:pb-14">
-              <h1 className="text-3xl font-light text-white sm:text-4xl">
-                Leadership Team
-              </h1>
-              <p className="mt-2 text-lg text-white/80">
-                The People Behind Every Restored Vision
-              </p>
-            </div>
-          </Container>
-        </div>
-      </div>
-    </section>
   );
 }
 
