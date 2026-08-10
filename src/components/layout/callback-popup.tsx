@@ -14,14 +14,31 @@ interface Props {
 export function CallbackPopup({ open, onClose }: Props) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [submitting, setSubmitting] = useState(false);
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
+    setSubmitting(true);
+
+    // Email the submission to the hospital. Don't block the WhatsApp handoff if
+    // the email fails — the visitor's intent still gets through.
+    try {
+      await fetch("/api/callback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone }),
+      });
+    } catch {
+      // ignore network errors; fall through to WhatsApp
+    }
+
     const message = `Hi, I'd like to request a callback.\n\nName: ${name}\nPhone: ${phone}`;
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
+
     setName("");
     setPhone("");
+    setSubmitting(false);
     onClose();
   }
 
@@ -83,9 +100,10 @@ export function CallbackPopup({ open, onClose }: Props) {
           </div>
           <button
             type="submit"
-            className="mt-2 h-14 w-full rounded-pill bg-brand text-lg font-semibold text-white shadow-brand transition-colors hover:bg-brand-dark"
+            disabled={submitting}
+            className="mt-2 h-14 w-full rounded-pill bg-brand text-lg font-semibold text-white shadow-brand transition-colors hover:bg-brand-dark disabled:cursor-not-allowed disabled:opacity-60"
           >
-            Send via WhatsApp
+            {submitting ? "Sending…" : "Send via WhatsApp"}
           </button>
         </form>
       </div>
