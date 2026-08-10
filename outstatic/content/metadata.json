@@ -1,6 +1,6 @@
 {
-  "commit": "9246220a6f785cfe7ed86454a8385591e39d6bf9",
-  "generated": "2026-08-10T17:00:17.556Z",
+  "commit": "3307da4071ee454d3b9e5192e52735188e2ee84c",
+  "generated": "2026-08-10T17:02:17.916Z",
   "metadata": [
     {
       "__outstatic": {
@@ -577,22 +577,6 @@
       "title": "Cataract Surgery",
       "whyChooseUs": "[{\"title\":\"Experienced Specialists\",\"description\":\"Our ophthalmologists bring years of experience and advanced training to deliver the highest standard of eye care.\"},{\"title\":\"Advanced Technology\",\"description\":\"We use the latest ophthalmic equipment and techniques for accurate diagnosis and effective treatment.\"},{\"title\":\"Patient-Centric Care\",\"description\":\"Every treatment plan is personalised to your unique needs, ensuring comfort and the best possible outcomes.\"},{\"title\":\"Affordable Excellence\",\"description\":\"World-class eye care at accessible prices, with transparent billing and no hidden costs.\"},{\"title\":\"Comprehensive Follow-Up\",\"description\":\"Post-procedure care and regular follow-ups to monitor recovery and ensure lasting results.\"}]",
       "whyChooseUsHeading": "Why Choose Dr. Sailaja's for Cataract Surgery?"
-    },
-    {
-      "__outstatic": {
-        "commit": "9246220a6f785cfe7ed86454a8385591e39d6bf9",
-        "hash": "2352729422",
-        "path": "outstatic/content/health-packages/test-package.md"
-      },
-      "author": {
-        "name": "deepakbokinala@gmail.com",
-        "picture": "https://avatars.githubusercontent.com/u/59043111?v=4"
-      },
-      "collection": "health-packages",
-      "publishedAt": "2026-08-10T17:32:46.460Z",
-      "slug": "test-package",
-      "status": "published",
-      "title": "Test Package"
     }
   ]
 }
